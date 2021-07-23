@@ -1,5 +1,5 @@
 # :white_check_mark: JAVA_piscine (project 2021) 
-## :moyai: Module_00
+## :bulb: Module_00
 ### Task lists:
 - [x] ex00
 - [x] ex01
@@ -10,7 +10,7 @@
 ### Useful links:
 [Oracle standarts](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
 
-## :moyai: Module_01
+## :bulb: Module_01
 ### Task lists:
 - [x] ex00
 - [ ] ex01
@@ -22,7 +22,7 @@
 ### Useful links:
 
 
-## :moyai: Module_02
+## :bulb: Module_02
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -30,7 +30,7 @@
 
 ### Useful links:
 
-## :moyai: Module_03
+## :bulb: Module_03
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -40,7 +40,7 @@
 ### Useful links:
 
 
-## :moyai: Module_04
+## :bulb: Module_04
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -49,7 +49,7 @@
 ### Useful links:
 
 
-## :moyai: Module_05
+## :bulb: Module_05
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -60,7 +60,7 @@
 ### Useful links:
 
 
-## :moyai: Module_06
+## :bulb: Module_06
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -70,7 +70,7 @@
 ### Useful links:
 
 
-## :moyai: Module_07
+## :bulb: Module_07
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -79,7 +79,7 @@
 ### Useful links:
 
 
-## :moyai: Module_08
+## :bulb: Module_08
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -88,7 +88,7 @@
 ### Useful links:
 
 
-## :moyai: Module_09
+## :bulb: Module_09
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -96,13 +96,13 @@
 
 ### Useful links:
 
-## :moyai: Rush_00
+## :bulb: Rush_00
 ### Task lists:
 - [ ] ex00
 
 ### Useful links:
 
-## :moyai: Rush_01
+## :bulb:: Rush_01
 ### Task lists:
 - [ ] ex00
 
