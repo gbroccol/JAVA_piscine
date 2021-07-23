@@ -1,5 +1,5 @@
 # :pushpin: JAVA_piscine (project 2021) 
-## :bulb: Module_00
+## :bulb: Day 00 - Management structures and arrays
 ### Task lists:
 - [x] ex00
 - [x] ex01
@@ -10,7 +10,7 @@
 ### Useful links:
 [Oracle standarts](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
 
-## :bulb: Module_01
+## :bulb: Day 01 - OOP/Collections
 ### Task lists:
 - [x] ex00
 - [ ] ex01
@@ -22,7 +22,7 @@
 ### Useful links:
 
 
-## :bulb: Module_02
+## :bulb: Day 02 - IO/Files
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -30,7 +30,7 @@
 
 ### Useful links:
 
-## :bulb: Module_03
+## :bulb: Day 03 - Threads
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -40,7 +40,7 @@
 ### Useful links:
 
 
-## :bulb: Module_04
+## :bulb: Day 04 - JAR
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -49,7 +49,7 @@
 ### Useful links:
 
 
-## :bulb: Module_05
+## :bulb: Day 05 - SQL/JDBC
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -60,7 +60,7 @@
 ### Useful links:
 
 
-## :bulb: Module_06
+## :bulb: Day 06 - JUNIT/Mockito
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -70,7 +70,7 @@
 ### Useful links:
 
 
-## :bulb: Module_07
+## :bulb: Day 07 - Reflection
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -79,7 +79,7 @@
 ### Useful links:
 
 
-## :bulb: Module_08
+## :bulb: Day 08 - Spring
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -88,7 +88,7 @@
 ### Useful links:
 
 
-## :bulb: Module_09
+## :bulb: Day 09 - Sockets
 ### Task lists:
 - [ ] ex00
 - [ ] ex01
@@ -96,13 +96,13 @@
 
 ### Useful links:
 
-## :bulb: Rush_00
+## :bulb: Rush 00 - Console Game & Maven
 ### Task lists:
 - [ ] ex00
 
 ### Useful links:
 
-## :bulb:: Rush_01
+## :bulb:: Rush 01 - Java FX & Sockets
 ### Task lists:
 - [ ] ex00
 
