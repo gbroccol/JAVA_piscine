@@ -1,4 +1,4 @@
-# :white_check_mark: JAVA_piscine (project 2021) 
+# :pushpin: JAVA_piscine (project 2021) 
 ## :bulb: Module_00
 ### Task lists:
 - [x] ex00
