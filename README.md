@@ -59,6 +59,7 @@
 
 ### Useful links:
 [JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
+<!-- [Руководство по JDBC. Утверждения (Statements)](https://proselyte.net/tutorials/jdbc/statements/) -->
 
 
 ## :bulb: Day 06 - JUNIT/Mockito
