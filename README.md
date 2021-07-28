@@ -13,9 +13,9 @@
 ## :bulb: Day 01 - OOP/Collections
 ### Task lists:
 - [x] ex00
-- [ ] ex01
-- [ ] ex02
-- [ ] ex03
+- [x] ex01
+- [x] ex02
+- [x] ex03
 - [ ] ex04
 - [ ] ex05
 
@@ -24,8 +24,8 @@
 
 ## :bulb: Day 02 - IO/Files
 ### Task lists:
-- [ ] ex00
-- [ ] ex01
+- [x] ex00
+- [x] ex01
 - [ ] ex02
 
 ### Useful links:
