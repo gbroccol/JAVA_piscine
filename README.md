@@ -58,6 +58,7 @@
 - [ ] ex04
 
 ### Useful links:
+[JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
 
 
 ## :bulb: Day 06 - JUNIT/Mockito
