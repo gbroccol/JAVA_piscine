@@ -1,7 +1,3 @@
-
-
-// System.out, System.err, Scanner(System.in)
-
 import java.util.Scanner;
 
 public class Program {
@@ -13,6 +9,7 @@ public class Program {
             result = result + nmb % 10;
             nmb = nmb / 10;
         }
+        
         return result;
     }
 
@@ -26,7 +23,9 @@ public class Program {
                 if (number % i == 0) {
                     return false;
                 }
+
             }
+
             return true;
         }
     }
@@ -34,17 +33,24 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
         int sum = 0;
+
         int nmb = 0;
 
-        while (nmb != 42) {
+        while (true) {
             nmb = sc.nextInt();
-
-            if (isPrime(sumDigits(nmb)) == false)
+            if (nmb == 42) {
+                break;
+            }
+            
+            if (isPrime(sumDigits(nmb))) {
                 sum++;
+            }
         }
 
-        System.out.println("Count of coffee - request - " + sum);
+        System.out.print("Count of coffee - request - ");
+        System.out.println(sum);
         sc.close();
     }
 }

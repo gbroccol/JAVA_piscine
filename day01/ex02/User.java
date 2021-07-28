@@ -4,9 +4,9 @@ public class User {
 
     private long _balance;
 
-    private int _id;
+    private final int _id;
 
-    public User(String userName, int balance, int id) {
+    public User(String userName, int balance) {
         this._userName = userName;
         if (balance < 0) {
             this._balance = 0;
@@ -14,7 +14,8 @@ public class User {
         } else {
             this._balance = balance;
         }
-        this._id = id;
+
+        this._id = UserIdsGenerator.getInstance().generateId();
     }
 
     public String getUserName() {
