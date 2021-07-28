@@ -19,7 +19,7 @@
 - [ ] ex04
 - [ ] ex05
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 02 - IO/Files
@@ -28,7 +28,7 @@
 - [x] ex01
 - [ ] ex02
 
-### Useful links:
+<!-- ### Useful links: -->
 
 ## :bulb: Day 03 - Threads
 ### Task lists:
@@ -37,7 +37,7 @@
 - [x] ex02
 - [ ] ex03
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 04 - JAR
@@ -46,7 +46,7 @@
 - [ ] ex01
 - [ ] ex02
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 05 - SQL/JDBC
@@ -68,7 +68,7 @@
 - [ ] ex02
 - [ ] ex03
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 07 - Reflection
@@ -77,7 +77,7 @@
 - [ ] ex01
 - [ ] ex02
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 08 - Spring
@@ -86,7 +86,7 @@
 - [ ] ex01
 - [ ] ex02
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 ## :bulb: Day 09 - Sockets
@@ -95,19 +95,19 @@
 - [ ] ex01
 - [ ] ex02
 
-### Useful links:
+<!-- ### Useful links: -->
 
 ## :bulb: Rush 00 - Console Game & Maven
 ### Task lists:
 - [ ] ex00
 
-### Useful links:
+<!-- ### Useful links: -->
 
 ## :bulb:: Rush 01 - Java FX & Sockets
 ### Task lists:
 - [ ] ex00
 
-### Useful links:
+<!-- ### Useful links: -->
 
 
 
