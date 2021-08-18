@@ -42,9 +42,9 @@
 
 ## :bulb: Day 04 - JAR
 ### Task lists:
-- [ ] ex00
-- [ ] ex01
-- [ ] ex02
+- [x] ex00
+- [x] ex01
+- [x] ex02
 
 <!-- ### Useful links: -->
 
