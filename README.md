@@ -58,18 +58,20 @@
 - [ ] ex04
 
 ### Useful links:
-[JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
 
-[Руководство по JDBC. Утверждения (Statements)](https://proselyte.net/tutorials/jdbc/statements/)
-
-[Package java.sql](https://docs.oracle.com/javase/7/docs/api/java/sql/package-summary.html)
-
-[Interface DataSource](https://docs.oracle.com/javase/7/docs/api/javax/sql/DataSource.html)
-
-[HikariCP library](https://github.com/brettwooldridge/HikariCP)
-
-[HikariCP — самый быстрый пул соединений на java](https://habr.com/ru/post/269023/)
-
+- [JDBC - youtube](https://www.youtube.com/watch?v=nL9dnvoF_ng)
+- [JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
+- [Руководство по JDBC. Утверждения (Statements)](https://proselyte.net/tutorials/jdbc/statements/)
+- [Package java.sql](https://docs.oracle.com/javase/7/docs/api/java/sql/package-summary.html)
+- [Interface DataSource](https://docs.oracle.com/javase/7/docs/api/javax/sql/DataSource.html)
+- [HikariCP library](https://github.com/brettwooldridge/HikariCP)
+- [HikariCP — самый быстрый пул соединений на java](https://habr.com/ru/post/269023/)
+- [Introduction to HikariCP](https://www.baeldung.com/hikaricp)
+- [HikariCP центральный репозиторий Maven (узнать последнюю версию)](https://search.maven.org/classic/#search%7Cgav%7C1%7Cg%3A%22com.zaxxer%22%20AND%20a%3A%22HikariCP%22)
+- [Interface PreparedStatement](https://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html)
+- [Interface ResultSet](https://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html)
+- [Class Optional<T>](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
+- [Lombok возвращает величие Java](https://habr.com/ru/post/438870/)
 
 
 ## :bulb: Day 06 - JUNIT/Mockito
