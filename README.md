@@ -58,15 +58,19 @@
 - [ ] ex04
 
 ### Useful links:
-- [JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
-- [Руководство по JDBC. Утверждения (Statements)](https://proselyte.net/tutorials/jdbc/statements/)
-- [Package java.sql](https://docs.oracle.com/javase/7/docs/api/java/sql/package-summary.html)
-- [Interface DataSource](https://docs.oracle.com/javase/7/docs/api/javax/sql/DataSource.html)
-- [HikariCP library](https://github.com/brettwooldridge/HikariCP)
-- [HikariCP — самый быстрый пул соединений на java](https://habr.com/ru/post/269023/)
-- []()
-- []()
-- []()
+[JDBC или с чего всё начинается](https://javarush.ru/groups/posts/2172-jdbc-ili-s-chego-vsje-nachinaetsja)
+
+[Руководство по JDBC. Утверждения (Statements)](https://proselyte.net/tutorials/jdbc/statements/)
+
+[Package java.sql](https://docs.oracle.com/javase/7/docs/api/java/sql/package-summary.html)
+
+[Interface DataSource](https://docs.oracle.com/javase/7/docs/api/javax/sql/DataSource.html)
+
+[HikariCP library](https://github.com/brettwooldridge/HikariCP)
+
+[HikariCP — самый быстрый пул соединений на java](https://habr.com/ru/post/269023/)
+
+
 
 ## :bulb: Day 06 - JUNIT/Mockito
 ### Task lists:
