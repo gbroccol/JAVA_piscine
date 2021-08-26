@@ -51,8 +51,8 @@
 
 ## :bulb: Day 05 - SQL/JDBC
 ### Task lists:
-- [ ] ex00
-- [ ] ex01
+- [x] ex00
+- [x] ex01
 - [ ] ex02
 - [ ] ex03
 - [ ] ex04
