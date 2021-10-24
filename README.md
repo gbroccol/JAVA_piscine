@@ -77,8 +77,8 @@
 ## :bulb: Day 06 - JUNIT/Mockito
 ### Task lists:
 - [x] ex00
-- [ ] ex01
-- [ ] ex02
+- [x] ex01
+- [x] ex02
 - [ ] ex03
 
 <!-- ### Useful links: -->
