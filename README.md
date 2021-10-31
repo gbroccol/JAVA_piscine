@@ -95,8 +95,8 @@
 
 ## :bulb: Day 08 - Spring
 ### Task lists:
-- [ ] ex00
-- [ ] ex01
+- [x] ex00
+- [x] ex01
 - [ ] ex02
 
 <!-- ### Useful links: -->
