@@ -1,0 +1,12 @@
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'apple', 55;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'grapes', 155;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'lime', 34;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'lemon', 64;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'cherry', 23;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'blueberry', 454;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'banana', 463;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'watermelon', 34;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'melon', 56;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'orange', 26;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'pear', 568;
+INSERT INTO test.product(identifier, name, price) VALUES 1, 'strawberry', 62;
