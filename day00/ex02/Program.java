@@ -49,7 +49,7 @@ public class Program {
             }
         }
 
-        System.out.print("Count of coffee - request - ");
+        System.out.print("Count of coffee-request - ");
         System.out.println(sum);
         sc.close();
     }
