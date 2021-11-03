@@ -1,12 +1,9 @@
+## Instructions to run the program
 1. Go to program file 
-    ```bash
-	cd ex00
-    ```
 2. Compile 
-    ```bash
-	javac Program.java
-    ```
 3. Run program
     ```bash
+	cd ex00
+	javac Program.java
 	java Program
     ```
