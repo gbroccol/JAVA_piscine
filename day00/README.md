@@ -1,4 +1,4 @@
-## Instructions to run the program
+## Instructions to run programs
 1. Go to program file 
 2. Compile 
 3. Run program
