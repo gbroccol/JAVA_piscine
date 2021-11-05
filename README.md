@@ -16,7 +16,7 @@
 - [x] ex01
 - [x] ex02
 - [x] ex03
-- [ ] ex04
+- [x] ex04
 - [ ] ex05
 
 <!-- ### Useful links: -->
