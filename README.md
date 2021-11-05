@@ -17,7 +17,7 @@
 - [x] ex02
 - [x] ex03
 - [x] ex04
-- [ ] ex05
+- [x] ex05 - нужно тестить
 
 <!-- ### Useful links: -->
 
@@ -97,7 +97,7 @@
 ### Task lists:
 - [x] ex00
 - [x] ex01
-- [ ] ex02
+- [x] ex02 - нужно тестить
 
 <!-- ### Useful links: -->
 
