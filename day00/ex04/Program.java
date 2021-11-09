@@ -7,120 +7,126 @@ public class Program {
     private static int minChar = 65535;
     private static int maxChar = 0;
     private static int maxNmbOfOccurrences = 0;
+    private static final int MAX_INT_LENGTH = 999;
 
-    public Program() {
-    }
-
-    private static int amountSymbols(int var0) {
-        int var1;
-        for(var1 = 0; var0 > 0; ++var1) {
-            var0 /= 10;
-        }
-
-        return var1;
-    }
-
-    private static int[] strToBufUnicode(String var0) {
-        char[] var1 = var0.toCharArray();
-        int[] var2 = new int['\uffff'];
-        char[] var3 = var1;
-        int var4 = var1.length;
-
-        for(int var5 = 0; var5 < var4; ++var5) {
-            char var6 = var3[var5];
-            if (var6 > maxChar) {
-                maxChar = var6;
-            }
-
-            if (var6 < minChar) {
-                minChar = var6;
-            }
-
-            int var10002 = var2[var6]++;
-            if (maxNmbOfOccurrences < var2[var6]) {
-                maxNmbOfOccurrences = var2[var6];
-            }
-        }
-
-        return var2;
-    }
-
-    private static void printTwoDimensionalArray(char[][] var0) {
-        for(int var1 = 0; var1 < var0.length; ++var1) {
-            for(int var2 = 0; var2 < var0[0].length; ++var2) {
-                System.out.print(var0[var1][var2]);
+    private static void printTwoDimensionalArray(char[][] arr) {
+        System.out.print("\n");
+        for (int i = 0; i < arr.length; ++i) {
+            for (int j = 0; j < arr[0].length; ++j) {
+                System.out.print(arr[i][j]);
             }
 
             System.out.println();
         }
-
     }
 
-    private static void addBarAndNmb(char[][] var0, int var1, int var2, int var3) {
-        int var4 = 10;
-        if (var1 != maxNmbOfOccurrences) {
-            var4 = 10 * var1 / maxNmbOfOccurrences;
+    private static int amountSymbols(int nmb) {
+        int res;
+
+        for (res = 0; nmb > 0; ++res) {
+            nmb /= 10;
         }
 
-        char[] var5 = ("" + var1).toCharArray();
-
-        int var6;
-        for(var6 = 0; var6 < var5.length; ++var6) {
-            var0[10 - var4][var3 + var6 + var2 - var5.length] = var5[var6];
-        }
-
-        for(var6 = 10; var4 > 0; --var6) {
-            var0[var6][var3 + var2 - 1] = '#';
-            --var4;
-        }
-
+        return res;
     }
 
-    private static void drawBarGraph(char[][] var0, int var1, int[] var2) {
-        for(int var3 = 0; var3 < 10 * var1; var3 += var1) {
-            int var4 = 0;
-            int var5 = 0;
+    private static int[] strToBufUnicode(String str) {
+        char[] charArray = str.toCharArray();
 
-            for(int var6 = minChar; var6 <= maxChar; ++var6) {
-                if (var4 < var2[var6]) {
-                    var4 = var2[var6];
-                    var5 = var6;
+        int[] intArray = new int[MAX_INT_LENGTH];
+
+        for (int i = 0; i < charArray.length; i++) {
+            char smb = charArray[i];
+
+            if (smb > maxChar) {
+                maxChar = smb;
+            }
+
+            if (smb < minChar) {
+                minChar = smb;
+            }
+
+            intArray[smb]++;
+
+            if (maxNmbOfOccurrences < intArray[smb]) {
+                maxNmbOfOccurrences = intArray[smb];
+            }
+        }
+
+        return intArray;
+    }
+
+    private static void addBarAndNmb(char[][] barGraph, int lettersAmount, int columnWidth, int column) {
+        int barHight = HEIGHT;
+
+        if (lettersAmount != maxNmbOfOccurrences) {
+            barHight = HEIGHT * lettersAmount / maxNmbOfOccurrences;
+        }
+
+        char[] nmbAsChar = ("" + lettersAmount).toCharArray();
+
+        int i;
+
+        for (i = 0; i < nmbAsChar.length; ++i) {
+            barGraph[HEIGHT - barHight][column + i + columnWidth - nmbAsChar.length] = nmbAsChar[i];
+        }
+
+        for (i = HEIGHT; barHight > 0; --i) {
+            barGraph[i][column + columnWidth - 1] = '#';
+            --barHight;
+        }
+    }
+
+    private static void drawBarGraph(char[][] barGraph, int columnWidth, int[] buf) {
+        for (int column = 0; column < WIDTH * columnWidth; column += columnWidth) {
+
+            int lettersAmount = 0;
+
+            int symbol = 0;
+
+            for (int j = minChar; j <= maxChar; j++) {
+                if (lettersAmount < buf[j]) {
+                    lettersAmount = buf[j];
+                    symbol = j;
                 }
             }
 
-            if (var4 == 0) {
+            if (lettersAmount == 0) {
                 break;
             }
 
-            var2[var5] = 0;
-            addBarAndNmb(var0, var4, var1, var3);
-            var0[11][var3 + var1 - 1] = (char)var5;
+            buf[symbol] = 0;
+            addBarAndNmb(barGraph, lettersAmount, columnWidth, column);
+            barGraph[HEIGHT + 1][column + columnWidth - 1] = (char)symbol;
         }
-
     }
 
-    public static void main(String[] var0) {
-        Scanner var1 = new Scanner(System.in);
-        String var2 = var1.nextLine();
-        if (var2.length() > 999) {
+    public static void main(String[] arg) {
+        Scanner sc = new Scanner(System.in);
+
+        String str = sc.nextLine();
+
+        if (str.length() > MAX_INT_LENGTH) {
             System.err.println("IllegalLength");
             System.exit(-1);
-        } else if (var2.length() == 0) {
+        } else if (str.length() == 0) {
             System.err.println("String is empty");
             return;
         }
 
-        int[] var3 = strToBufUnicode(var2);
-        int var4 = amountSymbols(maxNmbOfOccurrences) + 2;
-        char[][] var5 = new char[12][10 * var4];
+        int[] buf = strToBufUnicode(str);
 
-        for(int var6 = 0; var6 < 12; ++var6) {
-            for(int var7 = 0; var7 < 10 * var4; ++var7) {
-                var5[var6][var7] = ' ';
+        int columnWidth = amountSymbols(maxNmbOfOccurrences) + SPACE_BETWEEN_ROWS;
+
+        char[][] barGraph = new char[HEIGHT + 2][WIDTH * columnWidth];
+
+        for (int j = 0; j < (HEIGHT + 2); ++j) {
+            for (int i = 0; i < WIDTH * columnWidth; ++i) {
+                barGraph[j][i] = ' ';
             }
         }
 
-        drawBarGraph(var5, var4, var3);
-        printTwoDimensionalArray(var5);
+        drawBarGraph(barGraph, columnWidth, buf);
+        printTwoDimensionalArray(barGraph);
     }
 }
