@@ -26,7 +26,7 @@
 ### Task lists:
 - [x] ex00
 - [x] ex01
-- [ ] ex02
+- [x] ex02
 
 <!-- ### Useful links: -->
 
