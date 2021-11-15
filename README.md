@@ -53,9 +53,9 @@
 ### Task lists:
 - [x] ex00
 - [x] ex01
-- [ ] ex02
-- [ ] ex03
-- [ ] ex04
+- [x] ex02
+- [x] ex03
+- [x] ex04
 
 ### Useful links:
 
