@@ -97,14 +97,14 @@
 ### Task lists:
 - [x] ex00
 - [x] ex01
-- [x] ex02 - нужно тестить
+- [x] ex02
 
 <!-- ### Useful links: -->
 
 
 ## :bulb: Day 09 - Sockets
 ### Task lists:
-- [ ] ex00
+- [x] ex00
 - [ ] ex01
 - [ ] ex02
 
