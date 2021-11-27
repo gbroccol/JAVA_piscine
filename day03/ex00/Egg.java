@@ -8,7 +8,7 @@ public class Egg extends Thread {
 
     @Override
     public void run() {
-        for (int i = 0; i <= _countIteration ; i++) {
+        for (int i = 0; i < _countIteration ; i++) {
             try {
                 Thread.sleep((long)(( Math.random() * (500-100) ) + 100));
                 System.out.println("Egg");
