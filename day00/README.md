@@ -7,3 +7,4 @@
 	javac Program.java
 	java Program
     ```
+ex04 - ошибка при вводе латиницы 
