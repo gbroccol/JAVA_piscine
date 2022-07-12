@@ -14,7 +14,7 @@
 ### Task lists:
 - [x] ex00
 - [x] ex01
-- [x] ex02
+- [x] ex02 - Singleton
 - [x] ex03
 - [x] ex04
 - [x] ex05
